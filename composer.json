@@ -1,0 +1,34 @@
+{
+    "name": "dwmd/browser-detection",
+    "description": "DwmdBrowserDetection",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DWMD",
+            "homepage": "https://dwmd.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dwmd\\BrowserDetection\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": ">=6.5.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Dwmd\\BrowserDetection\\DwmdBrowserDetection",
+        "label": {
+            "de-DE": "DWMD Browsererkennung",
+            "en-GB": "DWMD browser detection"
+        },
+        "copyright": "(c) by DWMD",
+        "plugin-icon": "src/Resources/config/plugin.png",
+        "description": {
+            "de-DE": "Browsererkennung",
+            "en-GB": "Browser detection"
+        }
+    }
+}
